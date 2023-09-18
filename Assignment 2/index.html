@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>WDP-KS14-020 | Tugas 2</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">INVENTORY</a></li>
+        </ul>
+    </nav>
+
+    <!-- card/profile -->
+    <div class="container">
+        <div class="card">
+            <img id="picUser" src="img/user-logo.png" alt="userpict" class="profPic">
+            <ul>
+                <li><h1 id="nameUser">Guest</h1></li>
+                <li><p id="roleUser" style="color: #7c7c7c88;">Video Editor</p></li>
+                <button id="editBtn" class="editButton" type="button">Edit</button>
+                <button class="resumeButton" type="button">Resume</button>
+            </ul>
+            <ul class="profile">
+                <li><p>Availability</p></li>
+                <li><p>Age</p></li>
+                <li><p>Location</p></li>
+                <li><p>Years Experience</p></li>
+                <li><p>Email</p></li>
+            </ul>
+            <ul class="profile-detail">
+                <li><p id="statUser">Fulltime</p></li>
+                <li><p id="ageUser">22</p></li>
+                <li><p id="locUser">Jakarta</p></li>
+                <li><p id="expUser">4</p></li>
+                <li><p id="emailUser">guest@gmail.com</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- form -->
+    <form id="userForm" class="container hide-content">
+        <label for="nameEdit">Nama</label><br>
+        <input id="nameEdit" type="text" name="name" placeholder="Please input your name"><br>
+        <label for="roleEdit">Role</label><br>
+        <input id="roleEdit" type="text" name="role"><br>
+        <label for="statEdit">Availability</label><br>
+        <input id="statEdit" type="text" name="status"><br>
+        <label for="ageEdit">Age</label><br>
+        <input id="ageEdit" type="text" name="age"><br>
+        <label for="locEdit">Location</label><br>
+        <input id="locEdit" type="text" name="location"><br>
+        <label for="expEdit">Years Experience</label><br>
+        <input id="expEdit" type="text" name="experience"><br>
+        <label for="emailEdit">E-mail</label><br>
+        <input id="emailEdit" type="text" name="email"><br>
+        <label for="picEdit">Image</label><br>
+        <input id="picEdit" type="file" name="picture" accept="image/png, image/jpg"><br>
+        <button id="submitBtn" class="submitButton">Submit</button>
+    </form>
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <p>Copyright &copy; 2023 All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <p>Developed By Nazar</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

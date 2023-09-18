@@ -1,2 +1,10 @@
-# WDP-KS14-020-TUGAS-2
-Assignment 2 | By Eka Nazar Fajriansyah
+# Assignment 2 | By Eka Nazar Fajriansyah
+Implementasi JavaScript untuk perubahan section form
+
+# Current
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+# Update
+![Alt text](image-2.png)
